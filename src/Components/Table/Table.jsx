@@ -2,11 +2,11 @@ import CheckBoxPaid from "../Check Box/CheckBoxPaid";
 import MEMBERS_INFO from "../../Data/MemberInfo";
 import Name_Avatar from "../Name&Avatar/Name_Avatar";
 
-const Table = () => {
+const Table = ({ text }) => {
 	return (
 		<>
-			<div className=''>
-				<h1 className='pb-xl text-lg'>January Data</h1>
+			<div className='mb-8 mt-24'>
+				<h1 className='pb-5 text-xl font-bold'>{text}</h1>
 				<div className='overflow-x-auto'>
 					<table className='table'>
 						{/* head */}
@@ -54,8 +54,6 @@ const Table = () => {
 						</tfoot>
 					</table>
 				</div>
-
-				<h1>More Info</h1>
 			</div>
 		</>
 	);

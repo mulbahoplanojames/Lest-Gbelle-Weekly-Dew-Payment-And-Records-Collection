@@ -2,7 +2,7 @@ const CheckBoxPaid = () => {
 	return (
 		<>
 			<label>
-				<input type='checkbox' className='checkbox' />
+				<input type='checkbox' disabled className='checkbox' />
 			</label>
 		</>
 	);
