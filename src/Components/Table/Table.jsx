@@ -1,8 +1,9 @@
 import CheckBoxPaid from "../Check Box/CheckBoxPaid";
-import MEMBERS_INFO from "../../Data/MemberInfo";
+import MEMBERS_INFO_JANUARY from "../../Data/MemberInfo";
 import Name_Avatar from "../Name&Avatar/Name_Avatar";
+import CheckBoxNotPaid from "../Check Box/CheckBoxNotPaid";
 
-const Table = ({ text }) => {
+const Table = ({ text, month }) => {
 	return (
 		<>
 			<div className='mb-8 mt-24'>
@@ -20,23 +21,15 @@ const Table = ({ text }) => {
 							</tr>
 						</thead>
 						<tbody>
-							{MEMBERS_INFO.map((info) => (
+							{month.map((info) => (
 								<tr key={info.id}>
 									<td>
 										<Name_Avatar name={info.name} avatar={info.avatar} />
 									</td>
-									<td>
-										<CheckBoxPaid />
-									</td>
-									<td>
-										<CheckBoxPaid />
-									</td>
-									<td>
-										<CheckBoxPaid />
-									</td>
-									<td>
-										<CheckBoxPaid />
-									</td>
+									<td>{info.week1}</td>
+									<td>{info.week2}</td>
+									<td>{info.week3}</td>
+									<td>{info.week4}</td>
 								</tr>
 							))}
 							{/* row 1 */}

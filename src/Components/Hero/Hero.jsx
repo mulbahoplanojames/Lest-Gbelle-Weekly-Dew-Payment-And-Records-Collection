@@ -4,7 +4,7 @@ import Button from "../../Interfaces/Button/Button";
 const Hero = () => {
 	return (
 		<>
-			<div className='mt-36 pb-10'>
+			<div className='mt-36 pb-1'>
 				<h1 className='text-lg opacity-60 uppercase text-transparent bg-clip-text bg-gradient-to-r from-neutral-950 via-blue-500 to-teal-500 '>
 					LestGbelle
 				</h1>
