@@ -12,10 +12,18 @@ const Navbar = () => {
 					</h1>
 				</Link>
 				<div className='flex md:gap-10 gap-5'>
-					<FaWhatsapp className='text-2xl cursor-pointer hover:text-green-500' />
-					<FaFacebookSquare className='text-2xl cursor-pointer hover:text-blue-500' />
-					<FaInstagram className='text-2xl cursor-pointer hover:text-blue-500' />
-					<FaSquareXTwitter className='text-2xl cursor-pointer' />
+					<Link to='/'>
+						<FaWhatsapp className='text-2xl cursor-pointer hover:text-green-500' />
+					</Link>
+					<Link to='/'>
+						<FaFacebookSquare className='text-2xl cursor-pointer hover:text-blue-500' />
+					</Link>
+					<Link to='/'>
+						<FaInstagram className='text-2xl cursor-pointer hover:text-blue-500' />
+					</Link>
+					<Link to='/'>
+						<FaSquareXTwitter className='text-2xl cursor-pointer' />
+					</Link>
 				</div>
 			</nav>
 		</>
