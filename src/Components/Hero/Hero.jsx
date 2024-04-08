@@ -9,7 +9,7 @@ const Hero = () => {
 					LestGbelle
 				</h1>
 				<h1 className='pt-5 md:text-4xl text-3xl capitalize  lg:pr-[40rem] pr-3  '>
-					Lest Gbelle Weekly dew Payment and records Collection
+					Lest Gbelle Weekly due Payment and records Collection
 				</h1>
 				<p className='lg:pr-[40rem] pr-2 lg:pt-6 pt-3 pb-6'>{HERO_TEXT}</p>
 				<a href=''>
