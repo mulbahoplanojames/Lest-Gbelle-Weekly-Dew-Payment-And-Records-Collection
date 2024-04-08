@@ -16,3 +16,5 @@ const MEMBERS_INFO = [
 	{ id: 14, name: "Member New Four", avatar: "" },
 	{ id: 15, name: "Member New Five", avatar: "" },
 ];
+
+export default MEMBERS_INFO;

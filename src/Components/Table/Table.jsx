@@ -1,5 +1,6 @@
-import React from "react";
 import CheckBoxPaid from "../Check Box/CheckBoxPaid";
+import MEMBERS_INFO from "../../Data/MemberInfo";
+import Name_Avatar from "../Name&Avatar/Name_Avatar";
 
 const Table = () => {
 	return (
@@ -15,129 +16,31 @@ const Table = () => {
 							<th>Week 3</th>
 							<th>Week 4</th>
 						</tr>
+						.
 					</thead>
 					<tbody>
+						{MEMBERS_INFO.map((info) => (
+							<tr key={info.id}>
+								<td>
+									<Name_Avatar name={info.name} avatar={info.avatar} />
+								</td>
+								<td>
+									<CheckBoxPaid />
+								</td>
+								<td>
+									<CheckBoxPaid />
+								</td>
+								<td>
+									<CheckBoxPaid />
+								</td>
+								<td>
+									<CheckBoxPaid />
+								</td>
+							</tr>
+						))}
 						{/* row 1 */}
-						<tr>
-							<td>
-								<div className='flex items-center gap-3'>
-									<div className='avatar'>
-										<div className='mask mask-squircle w-12 h-12'>
-											<img
-												src='/tailwind-css-component-profile-2@56w.png'
-												alt='Avatar Tailwind CSS Component'
-											/>
-										</div>
-									</div>
-									<div>
-										<h2 className='font-bold'>Hart Hagerty</h2>
-									</div>
-								</div>
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-						</tr>
-						{/* row 2 */}
-						<tr>
-							<td>
-								<div className='flex items-center gap-3'>
-									<div className='avatar'>
-										<div className='mask mask-squircle w-12 h-12'>
-											<img
-												src='/tailwind-css-component-profile-2@56w.png'
-												alt='Avatar Tailwind CSS Component'
-											/>
-										</div>
-									</div>
-									<div>
-										<h2 className='font-bold'>Hart Hagerty</h2>
-									</div>
-								</div>
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-						</tr>
-						{/* row 3 */}
-						<tr>
-							<td>
-								<div className='flex items-center gap-3'>
-									<div className='avatar'>
-										<div className='mask mask-squircle w-12 h-12'>
-											<img
-												src='/tailwind-css-component-profile-2@56w.png'
-												alt='Avatar Tailwind CSS Component'
-											/>
-										</div>
-									</div>
-									<div>
-										<h2 className='font-bold'>Hart Hagerty</h2>
-									</div>
-								</div>
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-						</tr>
-						{/* row 4 */}
-						<tr>
-							<td>
-								<div className='flex items-center gap-3'>
-									<div className='avatar'>
-										<div className='mask mask-squircle w-12 h-12'>
-											<img
-												src='/tailwind-css-component-profile-2@56w.png'
-												alt='Avatar Tailwind CSS Component'
-											/>
-										</div>
-									</div>
-									<div>
-										<h2 className='font-bold'>Hart Hagerty</h2>
-									</div>
-								</div>
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-							<td>
-								<CheckBoxPaid />
-							</td>
-						</tr>
 					</tbody>
+
 					{/* foot */}
 					<tfoot>
 						<tr>
