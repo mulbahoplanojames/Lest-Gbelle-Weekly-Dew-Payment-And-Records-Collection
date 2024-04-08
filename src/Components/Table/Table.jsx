@@ -18,7 +18,6 @@ const Table = () => {
 								<th>Week 3</th>
 								<th>Week 4</th>
 							</tr>
-							.
 						</thead>
 						<tbody>
 							{MEMBERS_INFO.map((info) => (

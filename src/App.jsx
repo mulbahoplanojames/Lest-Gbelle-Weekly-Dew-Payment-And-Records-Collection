@@ -1,17 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Hero from "./Components/Hero/Hero";
-import Table from "./Components/Table/Table";
 import Navbar from "./Layouts/Navbar/Navbar";
+import Home from "./Pages/Home";
 
 const App = () => {
 	return (
 		<>
-			<Navbar />
-			<div className='container mx-auto md:px-14 px-2'>
-				<Hero />
-				<Table />
-			</div>
+			<BrowserRouter>
+				<Navbar />
+				<Routes>
+					
+						<Route index element={<Home />} />
+				</Routes>
+			</BrowserRouter>
 		</>
 	);
 };

@@ -1,11 +1,9 @@
 const CheckBoxPaid = () => {
 	return (
 		<>
-			<td>
-				<label>
-					<input type='checkbox' className='checkbox' />
-				</label>
-			</td>
+			<label>
+				<input type='checkbox' className='checkbox' />
+			</label>
 		</>
 	);
 };
