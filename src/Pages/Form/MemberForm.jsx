@@ -5,6 +5,7 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import InputField from "./InputField";
 import { FORM_TEXT } from "../../Constant/Constant";
+import TextArea from "./TextArea";
 
 const MemberForm = () => {
 	const [result, setResult] = useState("");
@@ -47,10 +48,8 @@ const MemberForm = () => {
 		<>
 			<section className='lg:px-10 md:mt-24 mt-16 py-14 '>
 				<div className='text-center md:pb-10 pb-6'>
-					<h2 className='text-lg uppercase text-1 font-medium pb-2'>
-						Contact Us
-					</h2>
-					<h1 className='text-4xl capitalize font-semibold'>Get in touch</h1>
+					<h2 className='text-lg uppercase text-1 font-medium pb-2'>Join Us</h2>
+					<h1 className='text-4xl capitalize font-semibold'>Become a member</h1>
 				</div>
 				<div className='grid sm:grid-cols-2 grid-cols-1 px-3 place-items-center md:place-items-start '>
 					<div className='px-3 py-4'>
@@ -85,12 +84,16 @@ const MemberForm = () => {
 							/>
 							<InputField
 								label={"Your Number"}
-								type={"number"}
+								type={"tel"}
 								placeholder={"Enter your phone number"}
 								name={"number"}
 							/>
 
-							
+							<TextArea
+								label={"Short reason for joining this organization"}
+								placeholder={"Enter a brief reason for joining us"}
+								name={"reason of joining the organization"}
+							/>
 							<Button text={"Submit now"} />
 							<p className='pt-4 text-red-500'>{result}</p>
 						</form>
