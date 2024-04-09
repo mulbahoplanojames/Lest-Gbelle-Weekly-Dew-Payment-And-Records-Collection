@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import HERO_TEXT from "../../Constant/Constant";
 import Button from "../../Interfaces/Button/Button";
 
@@ -12,9 +13,9 @@ const Hero = () => {
 					Lest Gbelle Weekly due Payment and records Collection
 				</h1>
 				<p className='lg:pr-[40rem] pr-2 lg:pt-6 pt-3 pb-6'>{HERO_TEXT}</p>
-				<a href=''>
+				<Link to='/form'>
 					<Button text={"Be a Member"} />
-				</a>
+				</Link>
 			</div>
 		</>
 	);
