@@ -1,10 +1,18 @@
 import Name_Avatar from "../Name&Avatar/Name_Avatar";
+import { motion } from "framer-motion";
 
 const Table = ({ text, month }) => {
 	return (
 		<>
 			<div className='mb-8 mt-24'>
-				<h1 className='pb-5 text-xl font-bold'>{text}</h1>
+				<motion.h1
+					whileInView={{ opacity: 1, x: 0 }}
+					initial={{ opacity: 0, x: -70 }}
+					transition={{ duration: 1 }}
+					className='pb-5 text-xl font-bold'
+				>
+					{text}
+				</motion.h1>
 				<div className='overflow-x-auto'>
 					<table className='table'>
 						{/* head */}
@@ -19,7 +27,12 @@ const Table = ({ text, month }) => {
 						</thead>
 						<tbody>
 							{month.map((info) => (
-								<tr key={info.id}>
+								<motion.tr
+									whileInView={{ opacity: 1, x: 0 }}
+									initial={{ opacity: 0, x: -70 }}
+									transition={{ duration: 1 }}
+									key={info.id}
+								>
 									<td>
 										<Name_Avatar name={info.name} avatar={info.avatar} />
 									</td>
@@ -27,7 +40,7 @@ const Table = ({ text, month }) => {
 									<td>{info.week2}</td>
 									<td>{info.week3}</td>
 									<td>{info.week4}</td>
-								</tr>
+								</motion.tr>
 							))}
 							{/* row 1 */}
 						</tbody>

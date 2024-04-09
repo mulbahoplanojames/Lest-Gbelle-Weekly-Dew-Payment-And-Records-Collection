@@ -1,9 +1,14 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const Accordion = ({ question, answer }) => {
 	return (
 		<>
-			<div className='collapse collapse-arrow join-item border border-base-300'>
+			<motion.div
+				whileInView={{ opacity: 1, x: 0 }}
+				initial={{ opacity: 0, x: 70 }}
+				transition={{ duration: 1 }}
+				className='collapse collapse-arrow join-item border border-base-300'
+			>
 				<input type='radio' name='my-accordion-4' defaultChecked />
 				<div className='collapse-title text-xl font-medium opacity-80'>
 					{question}
@@ -11,7 +16,7 @@ const Accordion = ({ question, answer }) => {
 				<div className='collapse-content'>
 					<h2>{answer}</h2>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	);
 };
