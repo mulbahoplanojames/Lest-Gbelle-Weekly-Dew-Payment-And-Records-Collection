@@ -1,3 +1,4 @@
+import { FREQUENTLY_ASK_QUESIONS } from "../../Constant/Constant";
 import Accordion from "./Accordion";
 
 const Faq = () => {
@@ -8,13 +9,13 @@ const Faq = () => {
 					Frequently ask questions
 				</h1>
 				<div className='join join-vertical w-full'>
-					<Accordion title={""} description={""} />
-					<Accordion title={""} description={""} />
-					<Accordion title={""} description={""} />
-					<Accordion title={""} description={""} />
-					<Accordion title={""} description={""} />
-					<Accordion title={""} description={""} />
-					<Accordion title={""} description={""} />
+					{FREQUENTLY_ASK_QUESIONS.map((faq) => (
+						<Accordion
+							key={faq.id}
+							question={faq.question}
+							answer={faq.answer}
+						/>
+					))}
 				</div>
 			</section>
 		</>
