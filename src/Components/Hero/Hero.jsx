@@ -17,7 +17,7 @@ const Hero = () => {
 				</motion.h1>
 				<motion.h1
 					whileInView={{ opacity: 1, x: 0 }}
-					initial={{ opacity: 0, x: -70 }}
+					initial={{ opacity: 0, x: 50 }}
 					transition={{ duration: 1.5 }}
 					className='pt-5 md:text-4xl text-3xl capitalize  lg:pr-[40rem] pr-3  '
 				>
@@ -25,7 +25,7 @@ const Hero = () => {
 				</motion.h1>
 				<motion.p
 					whileInView={{ opacity: 1, x: 0 }}
-					initial={{ opacity: 0, x: -70 }}
+					initial={{ opacity: 0, x: -30 }}
 					transition={{ duration: 2.5 }}
 					className='lg:pr-[40rem] pr-2 lg:pt-6 pt-3 pb-6'
 				>

@@ -5,7 +5,7 @@ const Accordion = ({ question, answer }) => {
 		<>
 			<motion.div
 				whileInView={{ opacity: 1, x: 0 }}
-				initial={{ opacity: 0, x: 70 }}
+				initial={{ opacity: 0, x: 30 }}
 				transition={{ duration: 1 }}
 				className='collapse collapse-arrow join-item border border-base-300'
 			>
