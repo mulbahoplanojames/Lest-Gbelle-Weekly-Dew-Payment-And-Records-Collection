@@ -1,7 +1,4 @@
-import CheckBoxPaid from "../Check Box/CheckBoxPaid";
-import MEMBERS_INFO_JANUARY from "../../Data/MemberInfo";
 import Name_Avatar from "../Name&Avatar/Name_Avatar";
-import CheckBoxNotPaid from "../Check Box/CheckBoxNotPaid";
 
 const Table = ({ text, month }) => {
 	return (
