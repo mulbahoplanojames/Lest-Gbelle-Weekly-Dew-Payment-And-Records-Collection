@@ -5,10 +5,10 @@ const Faq = () => {
 	return (
 		<>
 			<section className='mt-20 mb-16 '>
-				<h1 className='md:text-3xl text-xl capitalize font-bold pb-8 text-center'>
+				<h1 className='md:text-3xl text-xl capitalize font-bold pb-8 text-cente'>
 					Frequently ask questions
 				</h1>
-				<div className='join join-vertical w-full'>
+				<div className='join join-vertical w-full bg-neutral-50'>
 					{FREQUENTLY_ASK_QUESIONS.map((faq) => (
 						<Accordion
 							key={faq.id}
