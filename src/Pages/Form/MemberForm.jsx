@@ -29,7 +29,7 @@ const MemberForm = () => {
 
 			Swal.fire({
 				title: "🎉👏🙌✨🎊",
-				text: "Message sent successfully!",
+				text: "Message sent successfully!, Our team will reach out to you soon",
 				icon: "success",
 			});
 		} else {
