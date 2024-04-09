@@ -11,7 +11,7 @@ export const MEMBERS_INFO_JANUARY = [
 		id: 1,
 		name: "Staphen",
 		avatar: avatar1,
-		week1: <CheckBoxNotPaid />,
+		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
 		week4: <CheckBoxNotPaid />,
