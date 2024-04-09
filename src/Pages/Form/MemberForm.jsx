@@ -90,20 +90,7 @@ const MemberForm = () => {
 								name={"number"}
 							/>
 
-							<div className='mb-6'>
-								<label
-									htmlFor='message'
-									className='text-xl pb-1 opacity-90 inline-block'
-								>
-									Message*
-								</label>
-								<textarea
-									name='message'
-									required
-									placeholder='Enter your message'
-									className='w-full resize-none bg-2 h-24 outline-none px-3 py-2 focus:ring-inset focus:ring-4 focus:ring-1'
-								></textarea>
-							</div>
+							
 							<Button text={"Submit now"} />
 							<p className='pt-4 text-red-500'>{result}</p>
 						</form>
