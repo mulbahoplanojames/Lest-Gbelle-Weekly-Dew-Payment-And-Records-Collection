@@ -1,8 +1,10 @@
 import { IoIosMail } from "react-icons/io";
 import { MdPhoneInTalk, MdLocationOn } from "react-icons/md";
-import Button from "../Interfaces/Button/Button";
+import Button from "../../Interfaces/Button/Button";
 import { useState } from "react";
 import Swal from "sweetalert2";
+import InputField from "./InputField";
+import { FORM_TEXT } from "../../Constant/Constant";
 
 const MemberForm = () => {
 	const [result, setResult] = useState("");
@@ -50,15 +52,10 @@ const MemberForm = () => {
 					</h2>
 					<h1 className='text-4xl capitalize font-semibold'>Get in touch</h1>
 				</div>
-				<div className='grid sm:grid-cols-2 grid-cols-1 px-3 place-items-center '>
+				<div className='grid sm:grid-cols-2 grid-cols-1 px-3 place-items-center md:place-items-start '>
 					<div className='px-3 py-4'>
 						<h1 className='text-3xl pb-3'>Send us a message</h1>
-						<p className='text-xl pb-3 opacity-70'>
-							Feel free to reach out through the contact from or find our
-							contact information below. Your feedback, questions and
-							suggestionsare important to us as we strive to provide exceptional
-							service.
-						</p>
+						<p className='text-xl pb-3 opacity-70'>{FORM_TEXT}</p>
 						<p className='text-xl pb-4 flex items-center gap-x-1'>
 							<IoIosMail className='text-4xl text-1' />
 							mulbahjamesoplano@gmail.com
@@ -74,51 +71,25 @@ const MemberForm = () => {
 					</div>
 					<div className=' px-1 sm:px-7 py-2 w-full'>
 						<form onSubmit={onSubmit}>
-							<div className='mb-6'>
-								<label
-									htmlFor='name'
-									className='text-xl pb-1 opacity-90 inline-block'
-								>
-									Your name*
-								</label>
-								<input
-									type='text'
-									name='name'
-									placeholder='Enter your name'
-									required
-									className='w-full bg-2 h-11 px-3 outline-none border-none rounded-sm focus:ring-inset focus:ring-1'
-								/>
-							</div>
-							<div className='mb-6'>
-								<label
-									htmlFor='email'
-									className='text-xl pb-1 opacity-90 inline-block'
-								>
-									Your email*
-								</label>
-								<input
-									type='text'
-									name='email'
-									placeholder='Enter your email'
-									required
-									className='w-full bg-2 h-11 px-3 outline-none border-none rounded-sm focus:ring-inset focus:ring-4 focus:ring-1'
-								/>
-							</div>
-							<div className='mb-6'>
-								<label
-									htmlFor='phone'
-									className='text-xl pb-1 opacity-90 inline-block'
-								>
-									Phone Number*
-								</label>
-								<input
-									type='text'
-									name='phone'
-									placeholder='Enter your phone number'
-									required
-									className='w-full bg-2 h-11 px-3 outline-none border-none rounded-sm focus:ring-inset focus:ring-4 focus:ring-1'
-								/>
-							</div>
+							<InputField
+								label={"Your Name"}
+								type={"text"}
+								placeholder={"Enter you name"}
+								name={"name"}
+							/>
+							<InputField
+								label={"Your Email"}
+								type={"email"}
+								placeholder={"Enter your email"}
+								name={"email"}
+							/>
+							<InputField
+								label={"Your Number"}
+								type={"number"}
+								placeholder={"Enter your phone number"}
+								name={"number"}
+							/>
+
 							<div className='mb-6'>
 								<label
 									htmlFor='message'

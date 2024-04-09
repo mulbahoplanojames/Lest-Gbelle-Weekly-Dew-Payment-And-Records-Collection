@@ -4,7 +4,7 @@ import Navbar from "./Layouts/Navbar/Navbar";
 import Home from "./Pages/Home";
 import MoreData from "./Pages/MoreData";
 import Footer from "./Pages/Footer";
-import MemberForm from "./Pages/MemberForm";
+import MemberForm from "./Pages/Form/MemberForm";
 
 const App = () => {
 	return (
