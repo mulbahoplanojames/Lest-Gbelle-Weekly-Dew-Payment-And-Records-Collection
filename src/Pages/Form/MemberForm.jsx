@@ -15,7 +15,7 @@ const MemberForm = () => {
 		setResult("Sending....");
 		const formData = new FormData(event.target);
 
-		formData.append("access_key", "562d6485-71c4-4390-9184-2c1cf99e08b5");
+		formData.append("access_key", "93fc889b-9678-48a6-be6d-2ec0f6b85731");
 
 		const res = await fetch("https://api.web3forms.com/submit", {
 			method: "POST",
@@ -57,11 +57,11 @@ const MemberForm = () => {
 						<p className='text-xl pb-3 opacity-70'>{FORM_TEXT}</p>
 						<p className='text-xl pb-4 flex items-center gap-x-1'>
 							<IoIosMail className='text-4xl text-1' />
-							mulbahjamesoplano@gmail.com
+							lestgbelleassociation.gmain.com
 						</p>
 						<p className='text-xl pb-4 flex items-center gap-x-1'>
 							<MdPhoneInTalk className='text-4xl text-1' />
-							+250791676207
+							+250791955614 / +250791375248
 						</p>
 						<p className='text-xl pb-4 flex items-center gap-x-1'>
 							<MdLocationOn className='text-4xl text-1' />
