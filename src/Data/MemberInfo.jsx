@@ -18,7 +18,7 @@ import new_Avatar from "/src/assets/illu3.jpg";
 export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 1,
-		name: "Staphen",
+		name: "Stephen",
 		avatar: stepgen_Avatar,
 		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
@@ -149,7 +149,7 @@ export const MEMBERS_INFO_JANUARY = [
 export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 1,
-		name: "Staphen",
+		name: "Stephen",
 		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
@@ -280,7 +280,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 export const MEMBERS_INFO_MARCH = [
 	{
 		id: 1,
-		name: "Staphen",
+		name: "Stephen",
 		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
@@ -411,7 +411,7 @@ export const MEMBERS_INFO_MARCH = [
 export const MEMBERS_INFO_APRIL = [
 	{
 		id: 1,
-		name: "Staphen",
+		name: "Stephen",
 		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
@@ -542,7 +542,7 @@ export const MEMBERS_INFO_APRIL = [
 export const MEMBERS_INFO_MAY = [
 	{
 		id: 1,
-		name: "Staphen",
+		name: "Stephen",
 		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
@@ -673,7 +673,7 @@ export const MEMBERS_INFO_MAY = [
 const MEMBERS_INFO_JUNE = [
 	{
 		id: 1,
-		name: "Staphen",
+		name: "Stephen",
 		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
