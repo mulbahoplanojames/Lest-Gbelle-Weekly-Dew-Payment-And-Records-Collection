@@ -2,6 +2,8 @@ import { FaWhatsapp, FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+
+const facebook = `https://www.facebook.com/profile.php?id=61558452691462&mibextid=LQQJ4d`;
 const Navbar = () => {
 	return (
 		<>
@@ -15,7 +17,7 @@ const Navbar = () => {
 					<Link to='/'>
 						<FaWhatsapp className='text-2xl cursor-pointer hover:text-green-500' />
 					</Link>
-					<Link to='/'>
+					<Link to={facebook} target='blank'>
 						<FaFacebookSquare className='text-2xl cursor-pointer hover:text-blue-500' />
 					</Link>
 					<Link to='/'>
