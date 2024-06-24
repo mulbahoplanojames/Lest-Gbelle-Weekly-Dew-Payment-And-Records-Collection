@@ -12,7 +12,7 @@ import sakou_Avatar from "/src/assets/James.jpeg";
 import daniel_Avatar from "/src/assets/Daniel.jpeg";
 import devine_Avatar from "/src/assets/Devine.jpeg";
 import sis_Vero_Avatar from "/src/assets/illu1.jpg";
-import edward_Avatar from "/src/assets/illu3.jpg";
+import edward_Avatar from "/src/assets/edward.jpeg";
 import new_Avatar from "/src/assets/illu3.jpg";
 
 export const MEMBERS_INFO_JANUARY = [
