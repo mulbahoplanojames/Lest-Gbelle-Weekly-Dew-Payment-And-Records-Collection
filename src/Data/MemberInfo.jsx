@@ -1,7 +1,7 @@
 import CheckBoxNotPaid from "../Components/Check Box/CheckBoxNotPaid";
 import CheckBoxPaid from "../Components/Check Box/CheckBoxPaid";
-import avatar1 from "/src/assets/illu1.jpg";
-import avatar2 from "/src/assets/illu2.jpg";
+import avatar1 from "/src/assets/stephen.jpeg";
+import avatar2 from "/src/assets/HOD_PRO.jpeg";
 import avatar3 from "/src/assets/illu3.jpg";
 import avatar4 from "/src/assets/illu4.jpg";
 import avatar5 from "/src/assets/illu5.jpg";
