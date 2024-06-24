@@ -13,6 +13,7 @@ import daniel_Avatar from "/src/assets/Daniel.jpeg";
 import devine_Avatar from "/src/assets/Devine.jpeg";
 import sis_Vero_Avatar from "/src/assets/illu1.jpg";
 import edward_Avatar from "/src/assets/edward.jpeg";
+import king_Abrannic_Avatar from "/src/assets/king_Abrannic.jpeg";
 import new_Avatar from "/src/assets/illu3.jpg";
 
 export const MEMBERS_INFO_JANUARY = [
@@ -126,8 +127,8 @@ export const MEMBERS_INFO_JANUARY = [
 	},
 	{
 		id: 13,
-		name: "Member New Two",
-		avatar: new_Avatar,
+		name: "King Abrannic",
+		avatar: king_Abrannic_Avatar,
 		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxPaid />,
@@ -257,8 +258,8 @@ export const MEMBERS_INFO_FEBRUARY = [
 	},
 	{
 		id: 13,
-		name: "Member New Two",
-		avatar: new_Avatar,
+		name: "King Abrannic",
+		avatar: king_Abrannic_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -388,8 +389,8 @@ export const MEMBERS_INFO_MARCH = [
 	},
 	{
 		id: 13,
-		name: "Member New Two",
-		avatar: new_Avatar,
+		name: "King Abrannic",
+		avatar: king_Abrannic_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -519,8 +520,8 @@ export const MEMBERS_INFO_APRIL = [
 	},
 	{
 		id: 13,
-		name: "Member New Two",
-		avatar: new_Avatar,
+		name: "King Abrannic",
+		avatar: king_Abrannic_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -650,8 +651,8 @@ export const MEMBERS_INFO_MAY = [
 	},
 	{
 		id: 13,
-		name: "Member New Two",
-		avatar: new_Avatar,
+		name: "King Abrannic",
+		avatar: king_Abrannic_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -781,8 +782,8 @@ const MEMBERS_INFO_JUNE = [
 	},
 	{
 		id: 13,
-		name: "Member New Two",
-		avatar: new_Avatar,
+		name: "King Abrannic",
+		avatar: king_Abrannic_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
