@@ -1,16 +1,25 @@
 import CheckBoxNotPaid from "../Components/Check Box/CheckBoxNotPaid";
 import CheckBoxPaid from "../Components/Check Box/CheckBoxPaid";
-import avatar1 from "/src/assets/stephen.jpeg";
-import avatar2 from "/src/assets/HOD_PRO.jpeg";
-import avatar3 from "/src/assets/illu3.jpg";
-import avatar4 from "/src/assets/illu4.jpg";
-import avatar5 from "/src/assets/illu5.jpg";
+
+import stepgen_Avatar from "/src/assets/stephen.jpeg";
+import kula_Avatar from "/src/assets/HOD_PRO.jpeg";
+import oplano_Avatar from "/src/assets/oplano.jpeg";
+import Kulex_Avatar from "/src/assets/CEO.jpeg";
+import emmanuel_Avatar from "/src/assets/Emmanuel.jpeg";
+import proCoach_Avatar from "/src/assets/illu5.jpg";
+import liuking_Avatar from "/src/assets/liuking.jpeg.jpeg";
+import sakou_Avatar from "/src/assets/James.jpeg";
+import daniel_Avatar from "/src/assets/Daniel.jpeg";
+import devine_Avatar from "/src/assets/Devine.jpeg";
+import sis_Vero_Avatar from "/src/assets/illu1.jpg";
+import edward_Avatar from "/src/assets/illu3.jpg";
+import new_Avatar from "/src/assets/illu3.jpg";
 
 export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 1,
 		name: "Staphen",
-		avatar: avatar1,
+		avatar: stepgen_Avatar,
 		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -19,7 +28,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 2,
 		name: "Kula",
-		avatar: avatar2,
+		avatar: kula_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxPaid />,
 		week3: <CheckBoxPaid />,
@@ -28,7 +37,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 3,
 		name: "Oplano",
-		avatar: avatar3,
+		avatar: oplano_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxPaid />,
@@ -37,7 +46,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 4,
 		name: "Coolest",
-		avatar: avatar4,
+		avatar: Kulex_Avatar,
 		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -46,7 +55,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 5,
 		name: "Emmanuel",
-		avatar: avatar5,
+		avatar: emmanuel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -55,7 +64,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 6,
 		name: "PRO Coach",
-		avatar: avatar1,
+		avatar: proCoach_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -64,7 +73,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 7,
 		name: "Sis Vero",
-		avatar: avatar3,
+		avatar: sis_Vero_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -73,7 +82,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 8,
 		name: "Liukang",
-		avatar: avatar4,
+		avatar: liuking_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxPaid />,
@@ -82,7 +91,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 9,
 		name: "Edward",
-		avatar: avatar2,
+		avatar: edward_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -91,7 +100,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 10,
 		name: "Sekou",
-		avatar: avatar5,
+		avatar: sakou_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxPaid />,
@@ -100,7 +109,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 11,
 		name: "Daniel",
-		avatar: avatar2,
+		avatar: daniel_Avatar,
 		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -108,8 +117,8 @@ export const MEMBERS_INFO_JANUARY = [
 	},
 	{
 		id: 12,
-		name: "Member New",
-		avatar: avatar1,
+		name: "Devine",
+		avatar: devine_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxPaid />,
 		week3: <CheckBoxPaid />,
@@ -118,7 +127,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 13,
 		name: "Member New Two",
-		avatar: avatar5,
+		avatar: new_Avatar,
 		week1: <CheckBoxPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxPaid />,
@@ -127,7 +136,7 @@ export const MEMBERS_INFO_JANUARY = [
 	{
 		id: 14,
 		name: "Member New Three",
-		avatar: avatar4,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -141,7 +150,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 1,
 		name: "Staphen",
-		avatar: avatar1,
+		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -150,7 +159,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 2,
 		name: "Kula",
-		avatar: avatar2,
+		avatar: kula_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -159,7 +168,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 3,
 		name: "Oplano",
-		avatar: avatar3,
+		avatar: oplano_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -168,7 +177,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 4,
 		name: "Coolest",
-		avatar: avatar4,
+		avatar: Kulex_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -177,7 +186,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 5,
 		name: "Emmanuel",
-		avatar: avatar5,
+		avatar: emmanuel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -186,7 +195,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 6,
 		name: "PRO Coach",
-		avatar: avatar1,
+		avatar: proCoach_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -195,7 +204,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 7,
 		name: "Sis Vero",
-		avatar: avatar3,
+		avatar: sis_Vero_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -204,7 +213,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 8,
 		name: "Liukang",
-		avatar: avatar4,
+		avatar: liuking_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -213,7 +222,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 9,
 		name: "Edward",
-		avatar: avatar2,
+		avatar: edward_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -222,7 +231,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 10,
 		name: "Sekou",
-		avatar: avatar5,
+		avatar: sakou_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -231,7 +240,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 11,
 		name: "Daniel",
-		avatar: avatar2,
+		avatar: daniel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -239,8 +248,8 @@ export const MEMBERS_INFO_FEBRUARY = [
 	},
 	{
 		id: 12,
-		name: "Member New",
-		avatar: avatar1,
+		name: "Devine",
+		avatar: devine_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -249,7 +258,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 13,
 		name: "Member New Two",
-		avatar: avatar5,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -258,7 +267,7 @@ export const MEMBERS_INFO_FEBRUARY = [
 	{
 		id: 14,
 		name: "Member New Three",
-		avatar: avatar4,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -272,7 +281,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 1,
 		name: "Staphen",
-		avatar: avatar1,
+		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -281,7 +290,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 2,
 		name: "Kula",
-		avatar: avatar2,
+		avatar: kula_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -290,7 +299,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 3,
 		name: "Oplano",
-		avatar: avatar3,
+		avatar: oplano_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -299,7 +308,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 4,
 		name: "Coolest",
-		avatar: avatar4,
+		avatar: Kulex_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -308,7 +317,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 5,
 		name: "Emmanuel",
-		avatar: avatar5,
+		avatar: emmanuel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -317,7 +326,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 6,
 		name: "PRO Coach",
-		avatar: avatar1,
+		avatar: proCoach_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -326,7 +335,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 7,
 		name: "Sis Vero",
-		avatar: avatar3,
+		avatar: sis_Vero_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -335,7 +344,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 8,
 		name: "Liukang",
-		avatar: avatar4,
+		avatar: liuking_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -344,7 +353,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 9,
 		name: "Edward",
-		avatar: avatar2,
+		avatar: edward_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -353,7 +362,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 10,
 		name: "Sekou",
-		avatar: avatar5,
+		avatar: sakou_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -362,7 +371,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 11,
 		name: "Daniel",
-		avatar: avatar2,
+		avatar: daniel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -370,8 +379,8 @@ export const MEMBERS_INFO_MARCH = [
 	},
 	{
 		id: 12,
-		name: "Member New",
-		avatar: avatar1,
+		name: "Devine",
+		avatar: devine_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -380,7 +389,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 13,
 		name: "Member New Two",
-		avatar: avatar5,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -389,7 +398,7 @@ export const MEMBERS_INFO_MARCH = [
 	{
 		id: 14,
 		name: "Member New Three",
-		avatar: avatar4,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -403,7 +412,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 1,
 		name: "Staphen",
-		avatar: avatar1,
+		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -412,7 +421,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 2,
 		name: "Kula",
-		avatar: avatar2,
+		avatar: kula_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -421,7 +430,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 3,
 		name: "Oplano",
-		avatar: avatar3,
+		avatar: oplano_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -430,7 +439,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 4,
 		name: "Coolest",
-		avatar: avatar4,
+		avatar: Kulex_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -439,7 +448,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 5,
 		name: "Emmanuel",
-		avatar: avatar5,
+		avatar: emmanuel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -448,7 +457,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 6,
 		name: "PRO Coach",
-		avatar: avatar1,
+		avatar: proCoach_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -457,7 +466,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 7,
 		name: "Sis Vero",
-		avatar: avatar3,
+		avatar: sis_Vero_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -466,7 +475,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 8,
 		name: "Liukang",
-		avatar: avatar4,
+		avatar: liuking_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -475,7 +484,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 9,
 		name: "Edward",
-		avatar: avatar2,
+		avatar: edward_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -484,7 +493,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 10,
 		name: "Sekou",
-		avatar: avatar5,
+		avatar: sakou_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -493,7 +502,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 11,
 		name: "Daniel",
-		avatar: avatar2,
+		avatar: daniel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -501,8 +510,8 @@ export const MEMBERS_INFO_APRIL = [
 	},
 	{
 		id: 12,
-		name: "Member New",
-		avatar: avatar1,
+		name: "Devine",
+		avatar: devine_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -511,7 +520,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 13,
 		name: "Member New Two",
-		avatar: avatar5,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -520,7 +529,7 @@ export const MEMBERS_INFO_APRIL = [
 	{
 		id: 14,
 		name: "Member New Three",
-		avatar: avatar4,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -534,7 +543,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 1,
 		name: "Staphen",
-		avatar: avatar1,
+		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -543,7 +552,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 2,
 		name: "Kula",
-		avatar: avatar2,
+		avatar: kula_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -552,7 +561,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 3,
 		name: "Oplano",
-		avatar: avatar3,
+		avatar: oplano_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -561,7 +570,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 4,
 		name: "Coolest",
-		avatar: avatar4,
+		avatar: Kulex_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -570,7 +579,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 5,
 		name: "Emmanuel",
-		avatar: avatar5,
+		avatar: emmanuel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -579,7 +588,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 6,
 		name: "PRO Coach",
-		avatar: avatar1,
+		avatar: proCoach_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -588,7 +597,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 7,
 		name: "Sis Vero",
-		avatar: avatar3,
+		avatar: sis_Vero_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -597,7 +606,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 8,
 		name: "Liukang",
-		avatar: avatar4,
+		avatar: liuking_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -606,7 +615,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 9,
 		name: "Edward",
-		avatar: avatar2,
+		avatar: edward_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -615,7 +624,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 10,
 		name: "Sekou",
-		avatar: avatar5,
+		avatar: sakou_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -624,7 +633,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 11,
 		name: "Daniel",
-		avatar: avatar2,
+		avatar: daniel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -632,8 +641,8 @@ export const MEMBERS_INFO_MAY = [
 	},
 	{
 		id: 12,
-		name: "Member New",
-		avatar: avatar1,
+		name: "Devine",
+		avatar: devine_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -642,7 +651,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 13,
 		name: "Member New Two",
-		avatar: avatar5,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -651,7 +660,7 @@ export const MEMBERS_INFO_MAY = [
 	{
 		id: 14,
 		name: "Member New Three",
-		avatar: avatar4,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -665,7 +674,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 1,
 		name: "Staphen",
-		avatar: avatar1,
+		avatar: stepgen_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -674,7 +683,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 2,
 		name: "Kula",
-		avatar: avatar2,
+		avatar: kula_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -683,7 +692,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 3,
 		name: "Oplano",
-		avatar: avatar3,
+		avatar: oplano_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -692,7 +701,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 4,
 		name: "Coolest",
-		avatar: avatar4,
+		avatar: Kulex_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -701,7 +710,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 5,
 		name: "Emmanuel",
-		avatar: avatar5,
+		avatar: emmanuel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -710,7 +719,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 6,
 		name: "PRO Coach",
-		avatar: avatar1,
+		avatar: proCoach_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -719,7 +728,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 7,
 		name: "Sis Vero",
-		avatar: avatar3,
+		avatar: sis_Vero_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -728,7 +737,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 8,
 		name: "Liukang",
-		avatar: avatar4,
+		avatar: liuking_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -737,7 +746,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 9,
 		name: "Edward",
-		avatar: avatar2,
+		avatar: edward_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -746,7 +755,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 10,
 		name: "Sekou",
-		avatar: avatar5,
+		avatar: sakou_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -755,7 +764,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 11,
 		name: "Daniel",
-		avatar: avatar2,
+		avatar: daniel_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -763,8 +772,8 @@ const MEMBERS_INFO_JUNE = [
 	},
 	{
 		id: 12,
-		name: "Member New",
-		avatar: avatar1,
+		name: "Devine",
+		avatar: devine_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -773,7 +782,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 13,
 		name: "Member New Two",
-		avatar: avatar5,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,
@@ -782,7 +791,7 @@ const MEMBERS_INFO_JUNE = [
 	{
 		id: 14,
 		name: "Member New Three",
-		avatar: avatar4,
+		avatar: new_Avatar,
 		week1: <CheckBoxNotPaid />,
 		week2: <CheckBoxNotPaid />,
 		week3: <CheckBoxNotPaid />,

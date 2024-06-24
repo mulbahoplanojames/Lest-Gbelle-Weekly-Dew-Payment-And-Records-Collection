@@ -9,15 +9,17 @@ import MemberForm from "./Pages/Form/MemberForm";
 const App = () => {
 	return (
 		<>
-			<BrowserRouter>
-				<Navbar />
-				<Routes>
-					<Route index element={<Home />} />
-					<Route path='/moredata' element={<MoreData />} />
-					<Route path='/form' element={<MemberForm />} />
-				</Routes>
-				<Footer />
-			</BrowserRouter>
+			<div className='px-3'>
+				<BrowserRouter>
+					<Navbar />
+					<Routes>
+						<Route index element={<Home />} />
+						<Route path='/moredata' element={<MoreData />} />
+						<Route path='/form' element={<MemberForm />} />
+					</Routes>
+					<Footer />
+				</BrowserRouter>
+			</div>
 		</>
 	);
 };

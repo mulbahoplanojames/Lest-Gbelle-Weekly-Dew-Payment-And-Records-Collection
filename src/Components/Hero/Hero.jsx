@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
 	return (
 		<>
-			<div className='mt-36 pb-1'>
+			<div className='mt-36 pb-1 '>
 				<motion.h1
 					whileInView={{ opacity: 1, y: 0 }}
 					initial={{ opacity: 0, y: -50 }}
