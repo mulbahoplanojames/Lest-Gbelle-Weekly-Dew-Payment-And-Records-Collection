@@ -1,6 +1,14 @@
+/*
+ * This is a React component for the Hero section of the website.
+ * It imports necessary components and hooks from React and other files.
+ */
+// Importing Link from react-router-dom to create a link to the form page.
 import { Link } from "react-router-dom";
+// Importing the HERO_TEXT constant from the Constant file.
 import HERO_TEXT from "../../Constant/Constant";
+// Importing the Button component.
 import Button from "../../Interfaces/Button/Button";
+// Importing the motion component from framer-motion for animations.
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -24,6 +32,7 @@ const Hero = () => {
 					Lest Gbelle Weekly due Payment and records Collection
 				</motion.h1>
 				<motion.p
+					// The motion.p component creates an animated paragraph.
 					whileInView={{ opacity: 1, x: 0 }}
 					initial={{ opacity: 0, x: -30 }}
 					transition={{ duration: 2.5 }}
@@ -39,4 +48,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default Hero; // Exporting the Hero component so it can be used in other files.
